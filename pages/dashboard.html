@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/dashboard.min.css">
+</head>
+<body>
+    <div class="dashboard">
+        <div class="dashboard__content">  
+            <p>Dashboard</p>
+            <img src="../images/name.svg" alt="">
+            <button>Create Post</button>
+        </div>
+        <a href="../index.html">Sign Out?</a>
+    </div>
+    <div class="post">
+        <div class="p">Create New Post</div>
+
+        <form>
+            <div class="form-title">
+                <label for="title">Post title</label>
+                <input type="text" id="title" name="title">
+            </div>
+            <div class="form-img-link">
+                <span class="img-input">
+                    <label for="img-link">Post image</label>
+                    <input type="text" class="img-link" name="img-link">
+                </span>
+                <span class="img-input">
+                    <label for="img-link">Post tag</label>
+                    <input type="text" class="img-tag" name="img-link">
+                </span>
+            </div>
+            <div class="form-description">
+                <label for="description">Post description</label>
+                <textarea></textarea>
+            </div>
+            <button class="post-btn">Create Post</button>
+        </form>
+    </div>
+    <script src="../script/dashboard.js"></script>
+</body>
+</html>

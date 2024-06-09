@@ -1,0 +1,52 @@
+$blackcolor: #000000;
+$internfont:"Inter", sans-serif;
+$jomolfont: "Jomolhari", serif;
+$yellocolor: #F5C147;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background: $blackcolor;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 86px;
+    width: 100%;
+    height: 79px;
+    background: $blackcolor;
+    
+    }
+.nav__registration{
+    display: flex;
+    gap: 43px;
+    padding-right: 125px;
+}
+.registration__login{
+    font-family: $internfont ;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.registration__signup{
+    font-family: $internfont;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    text-decoration: none;  
+}
+.wraper{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
